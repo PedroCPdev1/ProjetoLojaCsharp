@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="Header">
       <header className="App-header">
-        <nav className="flex items-center justify-between p-4 bg-blue-800 text-white">
+        <nav className="flex items-center justify-between p-4 bg-cyan-700 text-white">
           <img src="images/shopping-basket.png" alt="Logo" className="h-7 invert" />
           <div className="space-x-5 flex">
             <a href="" className="hover:text-black">Home</a>
