@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client'
 import '../css/App.css'
 import Header from './Header.tsx'
 import Body from './Body.tsx'
+import Footer from './Footer.tsx'
+
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -11,6 +13,9 @@ createRoot(document.getElementById('root')!).render(
     </div>
     <div>
       <Body />
+    </div>
+    <div>
+      <Footer />
     </div>
   </StrictMode>,
 )

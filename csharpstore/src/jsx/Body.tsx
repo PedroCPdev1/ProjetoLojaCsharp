@@ -3,11 +3,12 @@ import '../css/App.css';
 function Body() {
     return (
         <><div className='Body flex justify-center '>
-            <h1 className='text-center font-bold pt-5 text-5xl text-cyan-700 scroll-m-20'>Home Market</h1>
+            <h1 className='text-center font-bold pt-5 text-5xl text-cyan-700 scroll-m-20 pt-20'>Home Market</h1>
         </div>
-            <div className="max-w-80 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">
+        <div className='grid grid-cols-3 content-start gap-0.5'>
+            <div className="flex max-w-100 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">
                 <a href="#">
-                    <img className="rounded-t-lg" src="./images/bananaa.jpg" alt="Banana" />
+                    <img className="rounded-t-lg size-56" src="./images/bananaa.jpg" alt="Banana" />
                 </a>
                 <div className="p-5">
                     <a href="#">
@@ -23,6 +24,145 @@ function Body() {
                 </div>
             </div>
 
+            <div className="flex max-w-100 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">
+                <a href="#">
+                    <img className="rounded-t-lg size-56" src="./images/maca.png" alt="Apple" />
+                </a>
+                <div className="p-5">
+                    <a href="#">
+                        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Apple</h2>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Apple</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-colors duration-200">
+                        Buy
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div className="flex max-w-100 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">
+                <a href="#">
+                    <img className="rounded-t-lg size-56" src="./images/mamao.jpg" alt="Papaya" />
+                </a>
+                <div className="p-5">
+                    <a href="#">
+                        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Papaya</h2>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Papaya</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-colors duration-200">
+                        Buy
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div className="flex max-w-100 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">
+                <a href="#">
+                    <img className="rounded-t-lg size-56" src="./images/broccolli.jpg" alt="Broccolli" />
+                </a>
+                <div className="p-5">
+                    <a href="#">
+                        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Broccolli</h2>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Broccolli</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-colors duration-200">
+                        Buy
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div className="flex max-w-100 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">
+                <a href="#">
+                    <img className="rounded-t-lg size-56" src="./images/broccolli.jpg" alt="Broccolli" />
+                </a>
+                <div className="p-5">
+                    <a href="#">
+                        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Broccolli</h2>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Broccolli</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-colors duration-200">
+                        Buy
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div className="flex max-w-100 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">
+                <a href="#">
+                    <img className="rounded-t-lg size-56" src="./images/broccolli.jpg" alt="Broccolli" />
+                </a>
+                <div className="p-5">
+                    <a href="#">
+                        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Broccolli</h2>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Broccolli</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-colors duration-200">
+                        Buy
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div className="flex max-w-100 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">
+                <a href="#">
+                    <img className="rounded-t-lg size-56" src="./images/broccolli.jpg" alt="Broccolli" />
+                </a>
+                <div className="p-5">
+                    <a href="#">
+                        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Broccolli</h2>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Broccolli</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-colors duration-200">
+                        Buy
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div className="flex max-w-100 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">
+                <a href="#">
+                    <img className="rounded-t-lg size-56" src="./images/broccolli.jpg" alt="Broccolli" />
+                </a>
+                <div className="p-5">
+                    <a href="#">
+                        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Broccolli</h2>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Broccolli</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-colors duration-200">
+                        Buy
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div className="flex max-w-100 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">
+                <a href="#">
+                    <img className="rounded-t-lg size-56" src="./images/broccolli.jpg" alt="Broccolli" />
+                </a>
+                <div className="p-5">
+                    <a href="#">
+                        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Broccolli</h2>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Broccolli</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-colors duration-200">
+                        Buy
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+</div>
 
 
         </>
