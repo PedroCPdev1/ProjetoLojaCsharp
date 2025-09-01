@@ -3,7 +3,7 @@ import '../css/App.css';
 function Body() {
     return (
         <><div className='Body flex justify-center '>
-            <h1 className='text-center font-bold pt-5 text-5xl text-cyan-700 scroll-m-20 pt-20'>Home Market</h1>
+            <h1 className='text-center font-bold text-5xl text-cyan-700 scroll-m-20 pt-20'>Home Market</h1>
         </div>
         <div className='grid grid-cols-3 content-start gap-0.5'>
             <div className="flex max-w-100 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10">

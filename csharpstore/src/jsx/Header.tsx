@@ -13,7 +13,7 @@ function Header() {
             <a href=""className="hover:text-black transition-colors duration-200">Products</a>
             <a href=""className="hover:text-black transition-colors duration-200">Contact</a>
             <a href="" className="hover:invert">
-            <img src="/images/cardapio.png" className="h-7 invert transition-colors duration-200" />
+              <img src="/images/cardapio.png" className="h-7 invert transition-colors duration-200" />
             </a>
           </div>
         </nav>
